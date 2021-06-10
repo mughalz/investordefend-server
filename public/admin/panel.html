@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="page">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Invest or Defend Admin. Panel</title>
+		<link rel="stylesheet" href="./css/adminPanel.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="page__body">
+		
+		<header class="page__header">
+			<h1 class="header__title header__title--game">
+				<cite>Invest or Defend</cite> Admin. Panel
+			</h1>
+
+			<button class="button header__button header__button--logout" id="logout" type="button">Log Out</button>
+		</header>
+
+		<main class="page__main page__main--form">
+
+			<section class="warning">
+				<p>
+					This admin. panel is designed for users who know what they are
+					doing. There is no validation, and it will be very easy
+					to break the game if you start messing around with things.
+				</p>
+
+				<p>
+					Particularly this:
+				</p>
+
+				<button class="button button--nuke" id="nuke" type="button"><img alt="Nuclear symbol" src="./img/nuclear-symbol.png">&nbsp;Nuke</button>
+			</section>
+
+			<!--Security Area Editor-->
+
+			<details class="details" id="securityAreas">
+				<summary class="details__summary">Edit Security Areas</summary>
+
+				<div class="details__content details__content--half">
+					<form method="POST" id="securityAreasCreate" class="form form--create">						
+						<label class="form__label form__label--above" for="securityAreasCreateInput">Add a new security area:</label>
+						<textarea id="securityAreasCreateInput" rows="20"></textarea>
+						
+						<input class="button form__control form__input form__input--submit" type="submit" value="Create"></input>
+					</form>
+				</div>
+				
+				<div class="details__content details__content--half">
+					<form method="PATCH" id="securityAreasUpdate" class="form form--update">
+						<label class="form__label form__label--above" for="securityAreasSelect">Select a security area:</label>
+						<select class="form__control form__input form__input--select" id="securityAreasSelect">
+						</select>
+						
+						<label class="form__label form__label--above" for="securityAreasUpdateInput">Selected security area: <span class="text__value" id="security-area-id"></span></label>
+						
+						<input class="button form__control form__input form__input--submit" type="submit" value="Update"></input>
+						
+						<input class="button form__control form__input form__input--delete" type="submit" value="Delete"></input>
+					</form>
+				</div>
+			</details>
+
+			<!--Controls Editor-->
+			
+			<details class="details" id="controls">
+				<summary class="details__summary">Edit Controls</summary>
+
+				<div class="details__content details__content--half">
+					<form method="POST" id="controlsCreate" class="form form--create">						
+						<label class="form__label form__label--above" for="controlsCreateInput">Add a new control:</label>
+						<textarea id="controlsCreateInput" rows="20"></textarea>
+						
+						<input class="button form__control form__input form__input--submit" type="submit" value="Create"></input>
+					</form>
+				</div>
+				
+				<div class="details__content details__content--half">
+					<form method="POST" id="controlsUpdate" class="form form--update">
+						
+						<label class="form__label form__label--above" for="controlsSelect">Select a control:</label>
+						<select class="form__control form__input form__input--select" id="controlsSelect">
+						</select>
+						
+						<label class="form__label form__label--above" for="controlsInput">Selected control: <span class="text__value" id="control-id"></span></label>
+						
+						<input class="button form__control form__input form__input--submit" type="submit" value="Update"></input>
+						
+						<input class="button form__control form__input form__input--delete" type="submit" value="Delete"></input>
+					</form>
+				</div>
+			</details>
+
+			<!--Settings Editor-->
+			
+			<details class="details" id="settings">
+				<summary class="details__summary">Edit Game Settings</summary>
+
+				<div class="details__content">
+					<form method="PATCH" id="settingsUpdate" class="form form--update">
+						
+						<label class="form__label form__label--above" for="settingsSelect">Select a setting:</label>
+						
+						<select class="form__control form__input form__input--select" id="settingsSelect">
+						</select>
+						
+						<p class="form__text" id="setting-description"></p>
+						
+						<label class="form__label form__label--above" for="settingsInput">Selected setting: <span class="text__value" id="setting-key"></span></label>
+								
+						<input class="button form__control form__input form__input--submit" type="submit" value="Update"></input>
+					</form>
+				</div>
+			</details>
+
+		</main>
+	
+		<footer>
+			<script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/jsoneditor.min.js"></script>
+			<script
+				src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous"></script>
+			<script src="./js/redirect.js"></script>
+			<script src="./js/refreshToken.js"></script>
+			<script src="./js/logout.js"></script>
+			<script src="./js/panel.js"></script>
+		</footer>
+		
+	</body>
+	
+</html>

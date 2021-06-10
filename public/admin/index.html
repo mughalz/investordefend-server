@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="page">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Invest or Defend Admin. Panel</title>
+		<link rel="stylesheet" href="./css/adminPanel.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="page__body">
+
+		<header class="page__header">
+			<h1 class="header__title header__title--game">
+				<cite>Invest or Defend</cite> Admin. Panel
+			</h1>
+		</header>
+
+		<main class="page__main page__main--form">
+
+			<form type="POST" id="signin" class="form">
+				<h1 class="form__title">Please sign in</h1>
+				
+				<label class="form__label form__label--above" for="username">Username <span class="label__note">(same as your email address)</span></label>
+				<input class="form__control form__input form__input--text" type="email" id="username" placeholder="Username" required autofocus>
+				<label class="form__label form__label--above" for="password">Password</label>
+				<input class="form__control form__input form__input--text" type="password" id="password" placeholder="Password" required>
+				
+				<input class="button form__control form__input form__input--submit" type="submit" value="Sign in"></input>
+			</form>
+
+		</main>
+		
+		<footer>
+		
+			<script
+				src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous"></script>
+			<script src="./js/login.js"></script>
+			
+		</footer>
+
+	</body>
+
+</html>

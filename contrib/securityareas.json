@@ -1,0 +1,58 @@
+[
+  {
+    "_id": {
+      "$oid": "3519e8ac996ef7f4636bfaea"
+    },
+    "number": "1",
+    "name": "Network Security",
+    "source": "original"
+  },
+  {
+    "_id": {
+      "$oid": "3519e8ac996ef7f4636bfaeb"
+    },
+    "number": "2",
+    "name": "Authentication",
+    "source": "original"
+  },
+  {
+    "_id": {
+      "$oid": "3519e8ac996ef7f4636bfaec"
+    },
+    "number": "3",
+    "name": "User Training",
+    "source": "original"
+  },
+  {
+    "_id": {
+      "$oid": "3519e8ac996ef7f4636bfaed"
+    },
+    "number": "4",
+    "name": "Governance",
+    "source": "original"
+  },
+  {
+    "_id": {
+      "$oid": "3519e8ac996ef7f4636bfaee"
+    },
+    "number": "5",
+    "name": "Secure Configuration",
+    "source": "original"
+  },
+  {
+    "_id": {
+      "$oid": "3519e8ac996ef7f4636bfaef"
+    },
+    "number": "6",
+    "name": "Disaster Recovery",
+    "source": "original"
+  },
+  {
+    "_id": {
+      "$oid": "3519e8ac996ef7f4636bfaaf"
+    },
+    "number": "7",
+    "name": "Threat Detection",
+    "source": "original"
+  }
+]

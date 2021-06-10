@@ -1,0 +1,363 @@
+[{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaea"
+  },
+  "number": "5",
+  "name": "Information security policies",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaeb"
+  },
+  "number": "7",
+  "name": "Human resources security",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaec"
+  },
+  "number": "8",
+  "name": "Asset management",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaed"
+  },
+  "number": "9",
+  "name": "Access control",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaee"
+  },
+  "number": "10",
+  "name": "Cryptography",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaef"
+  },
+  "number": "12",
+  "name": "Operations security",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaf0"
+  },
+  "number": "13",
+  "name": "Communications security",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaf1"
+  },
+  "number": "14",
+  "name": "System acquisition, development and maintenance",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaf2"
+  },
+  "number": "15",
+  "name": "Supplier relationships",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaf3"
+  },
+  "number": "16",
+  "name": "Information security incident management",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaf4"
+  },
+  "number": "17",
+  "name": "Information security aspects of business continuity management",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaf5"
+  },
+  "number": "18",
+  "name": "Compliance",
+  "source": "ISO/IEC 27000-series"
+},{
+  "_id": {
+    "$oid": "5519e8ac996ef7f4636bfaf6"
+  },
+  "number": "11",
+  "name": "Information security",
+  "source": "iso29100"
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaea"
+  },
+  "number": "5.1",
+  "name": "Management direction for information security",
+  "description": "To provide management direction and support for information security in accordance with business requirements and relevant laws and regulations.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaea"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaeb"
+  },
+  "number": "7.2",
+  "name": "During employment",
+  "description": "To ensure that employees and contractors are aware of and fulfil their information security responsibilities.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaeb"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaec"
+  },
+  "number": "8.1",
+  "name": "Responsibility for assets",
+  "description": "To identify organizational assets and define appropriate protection responsibilities.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaec"
+  }
+},{
+  "_id": {
+    "$oid": "6119e8ac996ef7f4636bfaec"
+  },
+  "number": "8.2",
+  "name": "Information classification",
+  "description": "To ensure that information receives an appropriate level of protection in accordance with its importance to the organisation.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaec"
+  }
+},{
+  "_id": {
+    "$oid": "6219e8ac996ef7f4636bfaec"
+  },
+  "number": "8.4",
+  "name": "Information exchanges protection",
+  "description": "To ensure adequate protection of information exchanges within an information sharing community.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaec"
+  },
+  "source": "ISO/IEC 27010"
+},{
+  "_id": {
+    "$oid": "6119e8ac996ef7f4636bfaed"
+  },
+  "number": "9.1",
+  "name": "Business requirements of access control",
+  "description": "To limit access to information and information processing facilities.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaed"
+  }
+},{
+  "_id": {
+    "$oid": "6219e8ac996ef7f4636bfaed"
+  },
+  "number": "9.2",
+  "name": "User access management",
+  "description": "To ensure authorized user access and to prevent unauthorized access to systems and services.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaed"
+  }
+},{
+  "_id": {
+    "$oid": "6319e8ac996ef7f4636bfaed"
+  },
+  "number": "9.3",
+  "name": "User responsibilities",
+  "description": "To make users accountable for safeguarding their authentication information.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaed"
+  }
+},{
+  "_id": {
+    "$oid": "6419e8ac996ef7f4636bfaed"
+  },
+  "number": "9.4",
+  "name": "System and application access control",
+  "description": "To prevent unauthorized access to systems and applications.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaed"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaee"
+  },
+  "number": "10.1",
+  "name": "Cryptographic controls",
+  "description": "To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaee"
+  }
+},{
+  "_id": {
+    "$oid": "6119e8ac996ef7f4636bfaef"
+  },
+  "number": "12.1",
+  "name": "Operational procedures and responsibilities",
+  "description": "To ensure correct and secure operations of information processing facilities.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaef"
+  }
+},{
+  "_id": {
+    "$oid": "6219e8ac996ef7f4636bfaef"
+  },
+  "number": "12.3",
+  "name": "Backup",
+  "description": "To protect against loss of data.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaef"
+  }
+},{
+  "_id": {
+    "$oid": "6319e8ac996ef7f4636bfaef"
+  },
+  "number": "12.4",
+  "name": "Logging and monitoring",
+  "description": "To record events and generate evidence.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaef"
+  }
+},{
+  "_id": {
+    "$oid": "6419e8ac996ef7f4636bfaef"
+  },
+  "number": "12.6",
+  "name": "Technical vulnerability management",
+  "description": "To prevent exploitation of technical vulnerabilities.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaef"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaef"
+  },
+  "number": "12.7",
+  "name": "Information systems audit considerations",
+  "description": "To minimise the impact of audit activities on operational systems.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaef"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaf0"
+  },
+  "number": "13.1",
+  "name": "Network security management",
+  "description": "To ensure the protection of information in networks and its supporting information processing facilities.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf0"
+  }
+},{
+  "_id": {
+    "$oid": "6619e8ac996ef7f4636bfaf0"
+  },
+  "number": "13.2",
+  "name": "Information transfer",
+  "description": "To maintain the security of information transferred within an organization and with any external entity.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf0"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaf1"
+  },
+  "number": "14.1",
+  "name": "Security requirements of information systems",
+  "description": "To ensure that information security is an integral part of information systems across the entire lifecycle. This also includes the requirements for information systems which provide services over public networks.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf1"
+  }
+},{
+  "_id": {
+    "$oid": "6119e8ac996ef7f4636bfaf1"
+  },
+  "number": "14.2",
+  "name": "Security in development and support processes",
+  "description": "To ensure that information security is designed and implemented within the development lifecycle of information systems.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf1"
+  }
+},{
+  "_id": {
+    "$oid": "6219e8ac996ef7f4636bfaf1"
+  },
+  "number": "14.3",
+  "name": "Test data",
+  "description": "To ensure the protection of data used for testing.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf1"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaf2"
+  },
+  "number": "15.1",
+  "name": "Information security in supplier relationships",
+  "description": "To ensure protection of the organization's assets that is accessible by suppliers.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf2"
+  }
+},{
+  "_id": {
+    "$oid": "6619e8ac996ef7f4636bfaf2"
+  },
+  "number": "15.2",
+  "name": "Supplier service delivery management",
+  "description": "To maintain an agreed level of information security and service delivery in line with supplier agreements.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf2"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaf3"
+  },
+  "number": "16.1",
+  "name": "Management of information security incidents and improvements",
+  "description": "To ensure a consistent and effective approach to the management of informations security incidents, including communication on security events and weaknesses.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf3"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaf4"
+  },
+  "number": "17.1",
+  "name": "Information security continuity",
+  "description": "Information security continuity shall be embedded in the organization's business continuity management systems.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf4"
+  }
+},{
+  "_id": {
+    "$oid": "6619e8ac996ef7f4636bfaf4"
+  },
+  "number": "17.2",
+  "name": "Redundancies",
+  "description": "To ensure availability of information processing facilities.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf4"
+  }
+},{
+  "_id": {
+    "$oid": "6519e8ac996ef7f4636bfaf5"
+  },
+  "number": "18.1",
+  "name": "Compliance with legal and contractual requirements",
+  "description": "To avoid breaches of legal, statutory, regulatory or contractual obligations related to information security and of any security requirements.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf5"
+  }
+},{
+  "_id": {
+    "$oid": "6619e8ac996ef7f4636bfaf5"
+  },
+  "number": "18.2",
+  "name": "Information security reviews",
+  "description": "To ensure that information security is implemented and operated in accordance with the organizational policies and procedures.",
+  "parent": {
+    "$oid": "5519e8ac996ef7f4636bfaf5"
+  }
+}]

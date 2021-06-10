@@ -1,0 +1,155 @@
+[
+	{
+		"key": "threatActors",
+		"description": "The possible threat actor values, and the probability that a given event will be attributable to each.",
+		"value": [{
+			"name": "Script Kiddie",
+			"probability": 0.6,
+			"slug": "script-kiddie",
+			"description": "A technically-unskilled by commonplace threat actor.",
+			"costModifier": 0.25
+		}, {
+			"name": "Hacktivist",
+			"probability": 0.25,
+			"slug": "hacktivist",
+			"includeFrom": 0.25,
+			"description": "A motivated threat actor with reasonable technical skills.",
+			"costModifier": 0.6
+		}, {
+			"name": "Rival Corporation",
+			"probability": 0.1,
+			"slug": "rival-corporation",
+			"includeFrom": 0.50,
+			"description": "A highly-motivated threat actor with reasonable technical skills.",
+			"costModifier": 1.0
+		}, {
+			"name": "Nation State",
+			"probability": 0.05,
+			"slug": "nation-state",
+			"includeFrom": 0.75,
+			"description": "A highly-motivated threat actor with incredible technical skills.",
+			"costModifier": 2.0
+		}]
+	},
+	{
+		"key": "tutorials",
+		"description": "Tutorial text provided for the various stages of the game.",
+		"value": [{
+			"state": null,
+			"text": "<h2 class=\"modal__subtitle\">Main Objective</h2>\n\t  <p class=\"text modal__text\">\n\t    The objective of this game is to increase your company's profits by\n\t    as much as possible by the end of the game in your <em>ultimate\n\t    financial position</em>. Your profits are calculated through the\n\t    accrual of investment into the business, minus any negative\n\t    consequences from cyber attacks, plus interest earned on final\n\t    positions.\n\t  </p>\n\n\t  <h2 class=\"modal__subtitle\">Scenario</h2>\n\n\t  <p class=\"text modal__text\">\n\t    You are a director of your company. As a business your aim is to\n\t    navigate the 21<sup>st</sup>-century world, make money, and keep\n\t    your assets and business safe from malicious actors. Each quarter\n\t    you are allocated a budget to use to invest or defend. It if your\n\t    role as a player to decide how to spend your quarterly budget:\n\n\t    <ul class=\"modal__list\">\n\t      <li class=\"modal__list__item\">invest funds into the company; or</li>\n\t      <li class=\"modal__list__item\">spend on cyber security controls for defence.</li>\n\t    </ul>\n\t  </p>\n\n\t  <p class=\"text modal__text\">\n\t    Money invested is considered to come back as profit and is banked.\n\t    There are also various <em>cyber security controls</em> you can\n\t    purchase which help to protect your organisation. Different controls\n\t    protect different things in different ways, and have various costs.\n\t    We advise you take some time to read each control, and then use this\n\t    information to decide what (if anything) you wish to defend.\n\t  </p>\n\n\t  <p class=\"text modal__text\">\n\t    Be aware that your actions around whether and how you choose to\n\t    invest or defend may have consequences on your ultimate financial\n\t    position.\n\t  </p>\n\t  \n\t  <h2 class=\"modal__subtitle\">Instructions for Play</h2>\n\n\t  <ul class=\"modal__list\">\n\t    <li class=\"modal__list__item\">\n\t      Each Quarter you will be given a budget which <em>must</em> be\n\t      spent on either cyber security controls, or invested back into the\n\t      company.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      This budget is <q>Use it or lose it</q>, i.e. you cannot save this\n\t      budget for future rounds. Unspent funds at the end of the round\n\t      will be considered as <q>invested</q> back into the company.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      Money <q>invested</q> back into the company is considered\n\t      <em>banked</em>, and will count towards your ultimate financial\n\t      position.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      Each quarter you can choose to buy different cyber security\n\t      controls to protect your organisation.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      Discuss with team mates and decide which controls you should put\n\t      in place and why. Try to come up with a valid justification for\n\t      each purchase &mdash; just as you would with any business\n\t      expenditure!\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      Once purchased, any cyber security controls will be in place for\n\t      the duration of the game.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      Each control costs a different amount and protects a different\n\t      thing.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      Depending on what you choose to defend, various different attacks\n\t      will not work.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      At the end of every round you earn interest on what is in the\n\t      bank (&pound;500 per full &pound;1,000 invested) and this\n\t      accumulates each turn.\n\t    </li>\n\t    <li class=\"modal__list__item\">\n\t      You may be subjected to a variety of cyber attacks from nefarious\n\t      actors. Each successful attack will have different consequences,\n\t      which could result in financial losses.\n\t    </li>\n\t  </ul>"
+		}, {
+			"state": "Purchasing",
+			"text": "<p class=\"text modal__text\">In this stage, you receive an amount of money to spend on implementing security controls.</p>\n\n<p class=\"text modal__text\">Click the <q>Add dControls</q> button in the sidebar to view all of the available controls and make your selections.</p>\n\n<p class=\"text modal__text\">You may change your mind about which controls to purchase at any time, until you click the ‘Simulate Turn’ button, at which point your purchases are locked in.</p>"
+		}, {
+			"state": "Placing",
+			"text": "<p class=\"text modal__text\">In this stage, you choose where to implement the controls that you have purchased.</p>"
+		}, {
+			"state": "Simulating",
+			"text": "<p class=\"text modal__text\">In this stage, the game server simulates a turn for your organisation.</p>"
+		}, {
+			"state": "Results",
+			"text": "<p class=\"text modal__text\">In this stage, you can review the events of the last turn.</p>"
+		}, {
+			"state": "Ended",
+			"text": "<p class=\"text modal__text\">In this stage, you can review the events of the game.</p><p class=\"text modal__text\">As the game is now finished, no further interaction is possible.</p>"
+		}]
+	},
+	{
+		"key": "gameDefaults",
+		"description": "The default values provided when starting a new game.",
+		"value": {
+			"maxTurns": 20,
+			"incomePerTurn": 2500,
+			"incidentMinCost": 500,
+			"incidentMaxCost": 5000,
+			"startingBalance": 0,
+			"industry": "J",
+			"size": "Medium"
+		}
+	},
+	{
+		"key": "assets",
+		"value": [{
+			"slug": "desktop",
+			"description": "A computer that lives on a desk.",
+			"name": "Desktop Computer",
+			"img": "desktop-computer.png",
+			"location": "org-0-2",
+			"probability": 0.1
+		}, {
+			"slug": "byod",
+			"name": "Bring Your Own Device",
+			"img": "bring-your-own-device.png",
+			"location": "org-0-0",
+			"probability": 0.05
+		}, {
+			"slug": "wifi",
+			"name": "Wi-Fi",
+			"img": "wi-fi.png",
+			"location": "org-2-3",
+			"probability": 0.05
+		}, {
+			"slug": "router",
+			"name": "Gateway Router",
+			"img": "gateway-router.png",
+			"location": "org-3-3",
+			"probability": 0.1
+		}, {
+			"slug": "users",
+			"name": "Users",
+			"img": "users.png",
+			"location": "org-1-0",
+			"probability": 0.1
+		}, {
+			"slug": "coffee",
+			"name": "Coffee Machine",
+			"img": "coffee-machine.png",
+			"location": "org-2-0",
+			"probability": 0.05
+		}, {
+			"slug": "laptop",
+			"name": "Laptop",
+			"img": "laptop.png",
+			"location": "org-3-1",
+			"probability": 0.1
+		}, {
+			"slug": "database",
+			"name": "Client Database",
+			"img": "client-database.png",
+			"location": "org-3-0",
+			"probability": 0.1
+		}, {
+			"slug": "cloud",
+			"name": "Cloud Storage",
+			"img": "cloud-storage.png",
+			"location": "inet-0-3",
+			"probability": 0.1
+		}, {
+			"slug": "ecommerce",
+			"name": "eCommerce",
+			"img": "e-commerce.png",
+			"location": "inet-0-2",
+			"probability": 0.1
+		}, {
+			"slug": "socmed",
+			"name": "Social Media",
+			"img": "social-media.png",
+			"location": "inet-0-1",
+			"probability": 0.05
+		}, {
+			"slug": "web",
+			"name": "Web & Email",
+			"img": "web-and-email.png",
+			"location": "inet-0-0",
+			"probability": 0.1
+		}],
+		"description": "The assets involved in a game.<br>\nThe `location` field determines where the asset is rendered:\n<ul>\n  <li><q>org</q>/<q>inet</q> to set the environment;</li>\n  <li>the x-coord; and</li>\n  <li>the y-coord.</li>\n</ul>"
+	},
+	{
+		"key": "sources",
+		"value": {
+			"original": "Original"
+		},
+		"description": "The list of sources available to select controls and security areas by.\n"
+	}
+]

@@ -1,0 +1,24 @@
+{
+ 	"server": {
+ 		"host": "localhost",
+    "port": 4000
+  },
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "invest-or-defend"
+  },
+  "email": {
+  	"host": "smtp.mailtrap.io",
+  	"port": 2525,
+  	"from": "noreply"
+  },
+  "repo": {
+    "server": {
+      "id": 671
+    },
+    "client": {
+      "id": 672
+    }
+  }
+}

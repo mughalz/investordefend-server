@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "rootDir": "./src",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true
+  },
+  "typedocOptions": {
+    "name": "Invest or Defend (Server)",
+    "entryPoints": "src",
+    "out": "public/docs",
+    "readme": "README.md",
+    "excludeTags": [
+        "swagger"
+    ],
+    "categoryOrder": [
+        "Base",
+        "Services",
+        "Controllers",
+        "Models",
+        "Helpers",
+        "Middlewares",
+        "*"
+    ],
+    "listInvalidSymbolLinks": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "tests",
+    "public"
+  ]
+}

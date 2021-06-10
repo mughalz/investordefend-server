@@ -1,0 +1,236 @@
+[
+  {
+    "number": "1.1",
+    "name": "Firewall",
+    "asset": "database",
+    "summary": "Protects the database from malicious network attacks.",
+    "description": "Protects the database from malicious network attacks. Only permitted network traffic can reach the device.",
+    "cost": "500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaea"
+      }
+    ],
+    "img": "firewall-database.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "1.2",
+    "name": "Firewall",
+    "asset": "router",
+    "summary": "Protects the office network from remote access and scanning.",
+    "description": "Protects the office network from remote access and scanning. Remote attackers cannot reach the devices on the office network.",
+    "cost": "500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaea"
+      }
+    ],
+    "img": "firewall-networking.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "1.3",
+    "name": "Firewall",
+    "asset": "desktop",
+    "description": "Stops malicious traffic internal to the office network preventing compromised devices attacking others.",
+    "cost": "500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaea"
+      }
+    ],
+    "img": "firewall-computer.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "2.1",
+    "name": "Two-Factor Auth.",
+    "asset": "socmed",
+    "description": "Uses two mechanisms to prove who you are and that you are authorised to use the service. Used when new devices are used.",
+    "cost": "500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaeb"
+      }
+    ],
+    "img": "2fa.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "2.2",
+    "name": "Two-Factor Auth.",
+    "asset": "web",
+    "description": "Uses two mechanisms to prove who you are and that you are authorised to use the service. Used when new devices are used.",
+    "cost": "1000.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaeb"
+      }
+    ],
+    "img": "2fa.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "2.3",
+    "name": "Two-Factor Auth.",
+    "asset": "ecommerce",
+    "description": "Uses two mechanisms to prove who you are and that you are authorised to use the service. Used when new devices are used.",
+    "cost": "500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaeb"
+      }
+    ],
+    "img": "2fa.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "2.4",
+    "name": "Two-Factor Auth.",
+    "asset": "cloud",
+    "description": "Uses two mechanisms to prove who you are and that you are authorised to use the service. Used when new devices are used.",
+    "cost": "1000.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaeb"
+      }
+    ],
+    "img": "2fa.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "3.1",
+    "name": "User Training",
+    "asset": "users",
+    "description": "Trains users on appropriate security processes and ways they can protect themselves.",
+    "cost": "2500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaec"
+      }
+    ],
+    "img": "user-training.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "4.1",
+    "name": "Passwords & Accounts Policy",
+    "asset": "organisation",
+    "description": "Enforces the use and management of strong passwords alongside making sure only legitimate accounts are used.",
+    "cost": "1500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaed"
+      }
+    ],
+    "img": "password-policy.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "4.2",
+    "name": "BYOD Controls",
+    "asset": "organisation",
+    "description": "Sets up specific policies on the use of personal devices and what control the business has over the device.",
+    "cost": "500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaed"
+      }
+    ],
+    "img": "byod-policy.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "4.3",
+    "name": "Patching Policy",
+    "asset": "organisation",
+    "description": "Makes sure all devices, operating systems and applications are up-to-date with the latest software and security fixes.",
+    "cost": "1000.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaed"
+      },
+      {
+        "$oid": "3519e8ac996ef7f4636bfaee"
+      }
+    ],
+    "img": "patching-policy.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "5.1",
+    "name": "Device Hardening",
+    "asset": "laptop",
+    "description": "Makes sure all devices have a strong security configuration.",
+    "cost": "1000.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaee"
+      }
+    ],
+    "img": "device-hardening.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "6.1",
+    "name": "Incident Response Plan",
+    "asset": "organisation",
+    "description": "Puts in place a plan in case a security event happens to reduce the harm. Whatever the loss, you will retain £500.",
+    "cost": "1500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaef"
+      }
+    ],
+    "img": "irp.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "7.1",
+    "name": "Anti-Malware",
+    "asset": "desktop",
+    "description": "Installed on devices and is able to detect malicious software if it known about.",
+    "cost": "1000.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaaf"
+      }
+    ],
+    "img": "anti-malware.png",
+    "effectiveness": 80.0
+  },
+  {
+    "number": "8.1",
+    "name": "Asset and Threat Audit",
+    "asset": "organisation",
+    "description": "Assesses your network for security issues and provides threat intelligence on who might be after you.",
+    "cost": "2500.00",
+    "source": "original",
+    "securityAreas": [
+      {
+        "$oid": "3519e8ac996ef7f4636bfaaf"
+      }
+    ],
+    "img": "audit.png",
+    "effect": {
+        "description": "Recommend controls to purchase.",
+        "script": "let sortedControls;\nsortedControls = this.newControls.sort((a, b) => (a.effectiveness > b.effectiveness) ? 1 : -1);\nsortedControls = sortedControls.sort((a, b) => (a.cost < b.cost) ? 1 : -1);\nconsole.debug(this.newControls);\nconst recControl = sortedControls[0];\nalert(`You should get ${recControl.number}. ${recControl.name} next!`);"
+    },
+    "effectiveness": 80.0
+  }
+]

@@ -1,0 +1,16 @@
+{
+ 	"server": {
+ 		"host": "localhost",
+    "port": 5000
+  },
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "test_invest-or-defend"
+  },
+  "email": {
+  	"host": "smtp.mailtrap.io",
+  	"port": 2525,
+  	"from": "noreply"
+  }
+}
