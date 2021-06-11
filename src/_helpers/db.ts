@@ -27,7 +27,7 @@ const {
   db: { host, port, name },
 } = config;
 
-const connectionString = 'mongodb+srv://test@test.com:1234@cluster1.qcpvo.mongodb.net/invest-or-defend?retryWrites=true&w=majority'
+const connectionString = 'mongodb+srv://admin:1234@iorcluster.k3qth.mongodb.net/invest-or-defend?retryWrites=true&w=majority'
 
 const connectionOptions = {
   useCreateIndex: true,
