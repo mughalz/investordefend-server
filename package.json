@@ -21,8 +21,7 @@
     "lint:html": "htmlhint './{src,public/admin}/**/*.html'",
     "lint:json": "jsonlint *.json --quiet",
     "lint:json:fix": "npm run lint:json -- --in-place",
-    "docs": "typedoc",
-    "postinstall": "for f in settings securityareas controls; do echo $f; mongoimport --db=invest-or-defend --drop --jsonArray --file=contrib/$f.json; done"
+    "docs": "typedoc"
   },
   "repository": {
     "type": "git",
@@ -76,6 +75,7 @@
     "@sideway/formula": "^3.0.0",
     "@sideway/pinpoint": "^2.0.0",
     "@typegoose/typegoose": "^7.4.2",
+    "atlas": "^1.0.0-alpha.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
@@ -92,7 +92,7 @@
     "joi-objectid": "^3.0.1",
     "joi-oid": "^1.1.2",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.6.3",
+    "mongodb": "^3.6.9",
     "mongoose": "^5.10.18",
     "morgan": "^1.10.0",
     "node-fetch": "^2.6.1",
