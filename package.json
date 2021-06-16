@@ -21,8 +21,8 @@
     "lint:html": "htmlhint './{src,public/admin}/**/*.html'",
     "lint:json": "jsonlint *.json --quiet",
     "lint:json:fix": "npm run lint:json -- --in-place",
-    "docs": "typedoc",
-    "postinstall": "for f in settings; do echo $f; mongoimport --db=invest-or-defend --drop --jsonArray --file=contrib/$f.json; done"
+    "docs": "typedoc"
+    
   },
   "repository": {
     "type": "git",
