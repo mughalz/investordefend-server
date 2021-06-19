@@ -22,7 +22,7 @@
     "lint:json": "jsonlint *.json --quiet",
     "lint:json:fix": "npm run lint:json -- --in-place",
     "docs": "typedoc",
-    "postinstall": "for f in settings; do echo $f; mongoimport --db=invest-or-defend --drop --jsonArray --file=contrib/$f.json; done"
+    "postinstall": "for f in settings,securityareas,controls; do echo $f; mongoimport --db=invest-or-defend --drop --jsonArray --file=contrib/$f.json; done"
   },
   "repository": {
     "type": "git",
@@ -99,7 +99,6 @@
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.4.17",
     "nodemailer-express-handlebars": "^4.0.0",
-    "postinstall": "^0.7.0",
     "reflect-metadata": "^0.1.13",
     "rootpath": "^0.1.2",
     "sinon": "^7.5.0",

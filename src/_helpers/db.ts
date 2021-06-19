@@ -22,12 +22,13 @@ import {
 import { SettingsClass } from '../games/settings.model';
 
 import config from '../config';
+import { db } from '.';
 
 const {
   db: { host, port, name },
 } = config;
 
-const connectionString = 'mongodb+srv://admin:1234@iorcluster.k3qth.mongodb.net/invest-or-defend?retryWrites=true&w=majority'
+const connectionString = 'mongodb+srv://admin:1234AA@invest-or-defend.rkz1z.mongodb.net/investordefend?retryWrites=true&w=majority'
 
 const connectionOptions = {
   useCreateIndex: true,
@@ -44,7 +45,7 @@ mongoose.connection.on('error', (error) => {
 });
 
 mongoose.connection.on('connected', function () {
-  console.debug('connected to mongo');
+  console.debug('connected to mongo ... ..' + port);
 });
 
 /*eslint-disable @typescript-eslint/no-explicit-any */
