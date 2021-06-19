@@ -22,7 +22,7 @@
     "lint:json": "jsonlint *.json --quiet",
     "lint:json:fix": "npm run lint:json -- --in-place",
     "docs": "typedoc",
-    "postinstall": "for f in settings,securityareas,controls; do echo $f; mongoimport --db=invest-or-defend --drop --jsonArray --file=contrib/$f.json; done"
+    "postinstall": "for $f in settings,securityareas,controls; do echo $f; mongoimport --db=invest-or-defend --drop --jsonArray --file=contrib/$f.json; done"
   },
   "repository": {
     "type": "git",
